@@ -1,3 +1,84 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+ 
+#iconicLogo
+{
+	height: -50%;
+	width: -50%;
+}
+
+#mainNav
+{
+	height: 60px;
+	background: rgb(99,171,226);
+	font-family: Arial;
+    background: -moz-linear-gradient(top, rgba(240,230,140,1) 0%, rgba(15,135,226,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,230,140,1)), color-stop(100%,rgba(15,135,226,1)));
+    background: -webkit-linear-gradient(top, rgba(240,230,140,1) 0%,rgba(15,135,226,1) 100%);
+    background: -o-linear-gradient(top, rgba(240,230,140,1) 0%,rgba(15,135,226,1) 100%);
+    background: -ms-linear-gradient(top, rgba(240,230,140,1) 0%,rgba(15,135,226,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,230,140,1) 0%,rgba(15,135,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', endColorstr='#0f87e2',GradientType=0 );
+
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#mainNav ul li a
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	transition: all .5s ease;
+	border-radius: 10px;
+
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #EBF0D4;
+	color: #333;
+	border-radius: 10px;
+}
+
+#featured
+{
+	font-family: Arial;
+	font-size: 24px;
+	color: #333;
+	padding: 10px;
+	margin-top: 10px;
+
+}
+
 .image-wrapper { 
 	display: inline-block; 
 	width: 45% }
