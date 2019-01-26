@@ -1,21 +1,10 @@
 (() => {
- 	
-		var iconOne = document.querySelector('#icon1');
+ 		
+		let iconOne = document.querySelector("#iconOne");
 
-		
-		var allTheIcons = document.querySelectorAll('.iconSet');
-
-
-		function logIcon(argument) {
+		function logThisiconOne() {
 			console.log(this.id);
-			debugger;
 		}
 
-	
-
-		iconOne.addEventListener("click", logIcon);
-
-		allTheIcons.forEach(currentIcon => currentIcon.addEventListener("click", logIcon));
-
-
+		iconOne.addEventListener("click", logThisIconOne);
 })();

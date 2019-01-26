@@ -4,6 +4,12 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="660.493px" height="954.432px" viewBox="0 0 660.493 954.432" style="enable-background:new 0 0 660.493 954.432;"
 	 xml:space="preserve">
+
+	 <style type="text/css">
+	 #petals:hover{fill:#FF99CA;}
+	 #petals:active{fill:#DBEEEE;}
+	</style>
+
 <g id="person">
 	<g id="body">
 		<path d="M439.325,254.083c0.233,29.93-1.587,68.689,7.937,95.673c10.979,31.106-17.386,54.068-22.265,86.867

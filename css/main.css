@@ -25,7 +25,6 @@ body
 #mainNav
 {
 	height: 60px;
-	position: absolute;
 	background: rgb(99,171,226);
 	font-family: Arial;
     background: -moz-linear-gradient(top, rgba(240,230,140,1) 0%, rgba(15,225,226,1) 100%);
@@ -73,10 +72,8 @@ body
 
 #iconContainer
 {
-	position: absolute;
 	width: 900px;
 	height: 700px;
-	margin-top: 80px;
 	margin-left: 30px;
 	background: #7bedd8;
 }
@@ -100,4 +97,3 @@ body
 	height: 200px;
 }
 
-#icon1
