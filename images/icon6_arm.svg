@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="arm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="816.875px" height="949.277px" viewBox="0 0 816.875 949.277" style="enable-background:new 0 0 816.875 949.277;"
 	 xml:space="preserve">
+	
+	<style type="text/css">
+		.color{fill:#FFB1EE;}
+	</style>
+
+<defs>
+	<script>
+		(() => {
+ 		let iconSix = document.querySelector("#arm");
+
+		function logThisIconSix() {
+			console.log(this.id);
+		}
+
+		iconSix.addEventListener("click", logThisIconSix);
+
+		document.querySelector("#arm").addEventListener("click", color);
+
+		function color() {
+  		document.getElementById("arm").classList.add("color");
+		}
+		
+		})();
+	</script>
+</defs>
+
 <g id="body">
 	<path d="M708.833,389.361c-4.33-11.613-21.568-34.795-20.275-13.321c1.363,22.638,5.328,46.551,8.463,69.287
 		c4.053,29.384,9.982,58.237,18.027,86.493c7.008,24.615,5.85,53.176,11.814,78.695c4.463,19.09,16.793,28.666,27.26,43.752

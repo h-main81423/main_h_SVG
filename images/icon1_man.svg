@@ -6,10 +6,30 @@
 	 xml:space="preserve">
 
 	<style type="text/css">
-		.fullIcon{ width: 10px; height: 10px;}
-
+		.opacity{ opacity: 0.7;}
 	</style>
 	
+<defs>
+	<script>
+		(() => {
+ 		let iconOne = document.querySelector("#man");
+
+		function logThisIconOne() {
+			console.log(this.id);
+		}
+
+		iconOne.addEventListener("click", logThisIconOne);
+
+		document.querySelector("#man").addEventListener("click", opacity);
+
+		function opacity() {
+  		document.getElementById("man").classList.add("opacity");
+		}
+		
+		})();
+	</script>
+</defs>
+
 <g class="fullIcon">
 <g id="body">
 	<path d="M136.529,21.709c-4.881,2.01,27.724,2.643,34.149,3.577c11.335,1.649,23.977,2.845,33.45,9.927

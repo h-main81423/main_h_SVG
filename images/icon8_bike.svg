@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="biking" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1031.1 1002.9" style="enable-background:new 0 0 1031.1 1002.9;" xml:space="preserve">
 <style type="text/css">
+	.color{fill:#FFB1EE;}
 	.st0{fill:none;stroke:#4D4D4D;stroke-width:12;stroke-miterlimit:10;}
 	.st1{fill:#EA3D3D;stroke:#800000;stroke-miterlimit:10;}
 	.st2{fill:#723D3D;stroke:#6C0000;stroke-miterlimit:10;}
 	.st3{fill:#FFFFFF;}
 </style>
+
+<defs>
+	<script>
+		(() => {
+ 		let iconEight = document.querySelector("#biking");
+
+		function logThisIconEight() {
+			console.log(this.id);
+		}
+
+		iconEight.addEventListener("click", logThisIconEight);
+
+		document.querySelector("#biking").addEventListener("click", color);
+
+		function color() {
+  		document.getElementById("biking").classList.add("color");
+		}
+		
+		})();
+	</script>
+</defs>
+
 <g id="Bike">
 	<g id="bike">
 		<g id="backwheel">

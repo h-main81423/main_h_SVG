@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="figure_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="handsUp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1296 1728" style="enable-background:new 0 0 1296 1728;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#050505;}
 	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.opacity{opacity: 0.7}
 </style>
+
+<defs>
+	<script>
+		(() => {
+ 		let iconNine = document.querySelector("#handsUp");
+
+		function logThisIconNine() {
+			console.log(this.id);
+		}
+
+		iconNine.addEventListener("click", logThisIconNine);
+
+		document.querySelector("#handsUp").addEventListener("click", opacity);
+
+		function opacity() {
+  		document.getElementById("handsUp").classList.add("opacity");
+		}
+		
+		})();
+	</script>
+</defs>
 <g id="body">
 	<path class="st0" d="M733,242.1c1.8-82.4-81.4-155.7-162.9-143.6S430.3,204.9,456,283.2c5.7,17.3,14.9,33.7,27.9,46.4
 		c43.9,42.8,115,33.7,175.1,21.6c2.4,65.9-8.8,132.2-32.7,193.7c-25.6-13.9-55.8-28.2-82.8-16.9c-32.8,13.7-40.5,55.8-43.9,91.3

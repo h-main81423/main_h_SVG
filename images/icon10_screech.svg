@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="figure" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="screech" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1203.5 1711.6" style="enable-background:new 0 0 1203.5 1711.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	#body:hover{fill:#1c563b;}
-	#body:active{fill:#17563b;}
-</style>
+	.color{fill:#FFB1EE;}
+	</style>
+
+<defs>
+	<script>
+		(() => {
+ 		let iconTen = document.querySelector("#screech");
+
+		function logThisIconTen() {
+			console.log(this.id);
+		}
+
+		iconTen.addEventListener("click", logThisIconTen);
+
+		document.querySelector("#screech").addEventListener("click", color);
+
+		function color() {
+  		document.getElementById("screech").classList.add("color");
+		}
+		
+		})();
+	</script>
+</defs>
 <g id="body">
 	<path d="M503.1,52c3.2-13.4,7.7-27.4,18.3-36.2c9.5-7.8,22.2-10.1,34.4-11.6c48.6-6.1,101-3.9,142,22.9
 		c63.1,41.1,80.2,131.2,55,202.2c-5.1-9.8-10.2-19.6-15.4-29.5c-3.3,8.3-8.4,15.9-14.9,22.1c-3.9-11.3-7.8-22.7-11.6-34

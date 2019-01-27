@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="flower" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="660.493px" height="954.432px" viewBox="0 0 660.493 954.432" style="enable-background:new 0 0 660.493 954.432;"
 	 xml:space="preserve">
-
-	 <style type="text/css">
-	 #petals:hover{fill:#FF99CA;}
-	 #petals:active{fill:#DBEEEE;}
+	<style type="text/css">
+		.color{fill:#FFB1EE;}
 	</style>
 
+<defs>
+	<script>
+		(() => {
+ 		let iconTwo = document.querySelector("#flower");
+
+		function logThisIconTwo() {
+			console.log(this.id);
+		}
+
+		iconTwo.addEventListener("click", logThisIconTwo);
+
+		document.querySelector("#flower").addEventListener("click", color);
+
+		function color() {
+  		document.getElementById("flower").classList.add("color");
+		}
+		
+		})();
+	</script>
+</defs>
 <g id="person">
 	<g id="body">
 		<path d="M439.325,254.083c0.233,29.93-1.587,68.689,7.937,95.673c10.979,31.106-17.386,54.068-22.265,86.867
